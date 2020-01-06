@@ -50,4 +50,29 @@
     <string name="statusbar_icons_title">Statusbar icons</string>
     <string name="statusbar_icons_dialog_title">Select statusbar icon set</string>
 
+    <!-- Accent Colors -->
+    <string name="accent_colors_space">Space</string>
+    <string name="accent_colors_purple">Purple</string>
+    <string name="accent_colors_orchid">Orchid</string>
+    <string name="accent_colors_ocean">Ocean</string>
+    <string name="accent_colors_green">Green</string>
+    <string name="accent_colors_cinnamon">Cinnamon</string>
+    <string name="accent_colors_amber">Amber</string>
+    <string name="accent_colors_blue">Blue</string>
+    <string name="accent_colors_bluegrey">Blue Grey</string>
+    <string name="accent_colors_brown">Brown</string>
+    <string name="accent_colors_cyan">Cyan</string>
+    <string name="accent_colors_deeporange">Deep Orange</string>
+    <string name="accent_colors_deeppurple">Deep Purple</string>
+    <string name="accent_colors_grey">Grey</string>
+    <string name="accent_colors_indigo">Indigo</string>
+    <string name="accent_colors_lightblue">Light Blue</string>
+    <string name="accent_colors_lightgreen">Light Green</string>
+    <string name="accent_colors_lime">Lime</string>
+    <string name="accent_colors_orange">Orange</string>
+    <string name="accent_colors_pink">Pink</string>
+    <string name="accent_colors_red">Red</string>
+    <string name="accent_colors_teal">Teal</string>
+    <string name="accent_colors_yellow">Yellow</string>
+
 </resources>

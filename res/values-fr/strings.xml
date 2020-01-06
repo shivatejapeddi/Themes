@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Dirty Unicorns Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">Thèmes</string>
+
+    <!-- Accent Picker -->
+    <string name="accent_picker_dialog_title">Sélectionner une couleur d\'accentuation</string>
+    <string name="theme_accent_picker_title">Couleur d\'accentuation</string>
+    <string name="theme_accent_picker_summary">Réglages de la couleur d\'accentuation du thème système</string>
+    <string name="theme_accent_picker_default">Par défaut</string>
+    <string name="accent_picker_stock_colors">Catégorie 1</string>
+    <string name="accent_picker_custom_colors">Catégorie 2</string>
+
+    <!-- Dark theme -->
+    <string name="dark_theme_title">Thème foncé</string>
+
+    <!-- Fonts -->
+    <string name="font_type_title">Police d\'écriture</string>
+    <string name="font_type_summary">Réglages de la police d\'écriture</string>
+    <string name="font_type_default">Par défaut</string>
+    <string name="font_type_noto_serif">Noto Serif / Source Sans Pro</string>
+
+    <!-- Adaptive icon shapes -->
+    <string name="adaptive_icon_shape_default">Par défaut</string>
+    <string name="adaptive_icon_shape_teardrop">Goutte</string>
+    <string name="adaptive_icon_shape_squircle">Carrécle</string>
+    <string name="adaptive_icon_shape_roundedrect">Rectangle arrondi</string>
+    <string name="adaptive_icon_shape_title">Forme de l\'icône</string>
+    <string name="adaptive_icon_shape_dialog_title">Réglages de l\'aspect de l\'icône</string>
+
+    <!-- Statusbar icons -->
+    <string name="statusbar_icons_default">Par défaut</string>
+    <string name="statusbar_icons_filled">Pleines</string>
+    <string name="statusbar_icons_rounded">Fines</string>
+    <string name="statusbar_icons_circular">Très fines</string>
+    <string name="statusbar_icons_title">Icônes de la barre d\'état</string>
+    <string name="statusbar_icons_dialog_title">Icônes de la barre d\'état</string>
+
+    <!-- Accent Colors -->
+    <string name="accent_colors_space">Bleu nuit</string>
+    <string name="accent_colors_purple">Violet</string>
+    <string name="accent_colors_orchid">Orchidée</string>
+    <string name="accent_colors_ocean">Océan</string>
+    <string name="accent_colors_green">Vert</string>
+    <string name="accent_colors_cinnamon">Cannelle</string>
+    <string name="accent_colors_amber">Ambre</string>
+    <string name="accent_colors_blue">Bleu</string>
+    <string name="accent_colors_bluegrey">Bleu gris</string>
+    <string name="accent_colors_brown">Marron</string>
+    <string name="accent_colors_cyan">Cyan</string>
+    <string name="accent_colors_deeporange">Orange foncé</string>
+    <string name="accent_colors_deeppurple">Violet foncé</string>
+    <string name="accent_colors_grey">Gris</string>
+    <string name="accent_colors_indigo">Indigo</string>
+    <string name="accent_colors_lightblue">Bleu clair</string>
+    <string name="accent_colors_lightgreen">Vert clair</string>
+    <string name="accent_colors_lime">Vert citron</string>
+    <string name="accent_colors_orange">Orange</string>
+    <string name="accent_colors_pink">Rose</string>
+    <string name="accent_colors_red">Rouge</string>
+    <string name="accent_colors_teal">Turquoise</string>
+    <string name="accent_colors_yellow">Jaune</string>
+
+</resources>

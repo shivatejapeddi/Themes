@@ -220,51 +220,51 @@ public class Themes extends PreferenceFragment implements SharedPreferences.OnSh
 
     private void updateAccentSummary() {
         if (Utils.isThemeEnabled("com.android.theme.color.space")) {
-            mAccentPicker.setSummary("Space");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_space));
         } else if (Utils.isThemeEnabled("com.android.theme.color.purple")) {
-            mAccentPicker.setSummary("Purple");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_purple));
         } else if (Utils.isThemeEnabled("com.android.theme.color.orchid")) {
-            mAccentPicker.setSummary("Orchid");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_orchid));
         } else if (Utils.isThemeEnabled("com.android.theme.color.ocean")) {
-            mAccentPicker.setSummary("Ocean");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_ocean));
         } else if (Utils.isThemeEnabled("com.android.theme.color.green")) {
-            mAccentPicker.setSummary("Green");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_green));
         } else if (Utils.isThemeEnabled("com.android.theme.color.cinnamon")) {
-            mAccentPicker.setSummary("Cinnamon");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_cinnamon));
         } else if (Utils.isThemeEnabled("com.android.theme.color.amber")) {
-            mAccentPicker.setSummary("Amber");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_amber));
         } else if (Utils.isThemeEnabled("com.android.theme.color.blue")) {
-            mAccentPicker.setSummary("Blue");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_blue));
         } else if (Utils.isThemeEnabled("com.android.theme.color.bluegrey")) {
-            mAccentPicker.setSummary("Blue Grey");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_bluegrey));
         } else if (Utils.isThemeEnabled("com.android.theme.color.brown")) {
-            mAccentPicker.setSummary("Brown");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_brown));
         } else if (Utils.isThemeEnabled("com.android.theme.color.cyan")) {
-            mAccentPicker.setSummary("Cyan");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_cyan));
         } else if (Utils.isThemeEnabled("com.android.theme.color.deeporange")) {
-            mAccentPicker.setSummary("Deep Orange");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_deeporange));
         } else if (Utils.isThemeEnabled("com.android.theme.color.deeppurple")) {
-            mAccentPicker.setSummary("Deep Purple");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_deeppurple));
         } else if (Utils.isThemeEnabled("com.android.theme.color.grey")) {
-            mAccentPicker.setSummary("Grey");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_grey));
         } else if (Utils.isThemeEnabled("com.android.theme.color.indigo")) {
-            mAccentPicker.setSummary("Indigo");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_indigo));
         } else if (Utils.isThemeEnabled("com.android.theme.color.lightblue")) {
-            mAccentPicker.setSummary("Light Blue");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_lightblue));
         } else if (Utils.isThemeEnabled("com.android.theme.color.lightgreen")) {
-            mAccentPicker.setSummary("Light Green");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_lightgreen));
         } else if (Utils.isThemeEnabled("com.android.theme.color.lime")) {
-            mAccentPicker.setSummary("Lime");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_lime));
         } else if (Utils.isThemeEnabled("com.android.theme.color.orange")) {
-            mAccentPicker.setSummary("Orange");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_orange));
         } else if (Utils.isThemeEnabled("com.android.theme.color.pink")) {
-            mAccentPicker.setSummary("Pink");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_pink));
         } else if (Utils.isThemeEnabled("com.android.theme.color.red")) {
-            mAccentPicker.setSummary("Red");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_red));
         } else if (Utils.isThemeEnabled("com.android.theme.color.teal")) {
-            mAccentPicker.setSummary("Teal");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_teal));
         } else if (Utils.isThemeEnabled("com.android.theme.color.yellow")) {
-            mAccentPicker.setSummary("Yellow");
+            mAccentPicker.setSummary(getString(R.string.accent_colors_yellow));
         } else {
             mAccentPicker.setSummary(getString(R.string.theme_accent_picker_default));
         }
