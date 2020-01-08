@@ -50,7 +50,7 @@
     <string name="statusbar_icons_title">Statusbar icons</string>
     <string name="statusbar_icons_dialog_title">Select statusbar icon set</string>
 
-    <!-- Accent Colors -->
+    <!-- Accents -->
     <string name="accent_colors_space">Space</string>
     <string name="accent_colors_purple">Purple</string>
     <string name="accent_colors_orchid">Orchid</string>
@@ -74,5 +74,13 @@
     <string name="accent_colors_red">Red</string>
     <string name="accent_colors_teal">Teal</string>
     <string name="accent_colors_yellow">Yellow</string>
+
+    <!-- Themes -->
+    <string name="theme_type_title">System theme</string>
+    <string name="theme_type_summary">Select theme</string>
+    <string name="theme_type_light">Light</string>
+    <string name="theme_type_google_dark">Google dark</string>
+    <string name="theme_type_pitch_black">Pitch black</string>
+    <string name="theme_type_solarized_dark">Solarized dark</string>
 
 </resources>

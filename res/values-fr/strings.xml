@@ -50,7 +50,7 @@
     <string name="statusbar_icons_title">Icônes de la barre d\'état</string>
     <string name="statusbar_icons_dialog_title">Icônes de la barre d\'état</string>
 
-    <!-- Accent Colors -->
+    <!-- Accents -->
     <string name="accent_colors_space">Bleu nuit</string>
     <string name="accent_colors_purple">Violet</string>
     <string name="accent_colors_orchid">Orchidée</string>
