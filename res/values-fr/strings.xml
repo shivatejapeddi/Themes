@@ -75,4 +75,12 @@
     <string name="accent_colors_teal">Turquoise</string>
     <string name="accent_colors_yellow">Jaune</string>
 
+    <!-- Themes -->
+    <string name="theme_type_title">Thème du système</string>
+    <string name="theme_type_summary">Sélectionner le thème</string>
+    <string name="theme_type_light">Clair</string>
+    <string name="theme_type_google_dark">Foncé Google</string>
+    <string name="theme_type_pitch_black">Pitch black</string>
+    <string name="theme_type_solarized_dark">Foncé solarisé</string>
+
 </resources>
