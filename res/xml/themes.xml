@@ -47,7 +47,7 @@
         android:entryValues="@array/statusbar_icons_values" />
 
     <PreferenceCategory
-        android:title="System theme" >
+        android:title="@string/theme_type_title" >
 
         <ListPreference
             android:key="theme_switch"

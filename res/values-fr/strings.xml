@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019 The Dirty Unicorns Project
+<!-- Copyright (C) 2019-2020 The Dirty Unicorns Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -81,5 +81,39 @@
     <string name="theme_type_google_dark">Foncé Google</string>
     <string name="theme_type_pitch_black">Pitch black</string>
     <string name="theme_type_solarized_dark">Foncé solarisé</string>
+    <string name="theme_other_category_title">Divers</string>
+    <string name="theme_backup_title">Sauvegarde de thème</string>
+    <string name="theme_backup_summary">Sauvegarder les réglages du thème actuel</string>
+    <string name="theme_backup_reach_limit_summary">Limite de sauvegarde atteinte</string>
+    <string name="theme_restore_title">Restaurer le thème</string>
+    <string name="theme_restore_summary">Restaurer les réglages d\'un thème sauvegardé</string>
+    <string name="theme_restore_no_backup_summary">Aucune sauvegarde disponible</string>
+    <string name="theme_name_exist_warning">Ce nom de sauvegarde existe déjà. Saisir un nouveau nom de sauvegarde.</string>
+    <string name="theme_button_apply_theme">Restaurer</string>
+    <string name="theme_button_delete_theme">Supprimer</string>
+    <string name="theme_switch_restore_theme_color">Couleur de l\'arrière-plan</string>
+    <string name="theme_switch_restore_accent_color">Couleur d\'accentuation</string>
+    <string name="theme_switch_restore_font_type">Police d\'écriture</string>
+    <string name="theme_switch_restore_adaptative_icons">Apparence des icônes</string>
+    <string name="theme_switch_restore_sb_icons">Icônes de la barre d\'état</string>
+    <string name="theme_switch_restore_wallpaper">Fond d\'écran</string>
+    <string name="theme_backup_edittext_hint">Sauvegarde_</string>
+    <string name="theme_backup_dialog_title">Fond d\'écran animé détecté</string>
+    <string name="theme_backup_dialog_message">Présence d\'un fond d\'écran animé.\n\nLes fonds d\'écran animés ne sont pas sauvegardés. Le fond d\'écran par défaut est sauvegardé à la place.</string>
+    <string name="theme_backup_dialog_positive">OK</string>
+    <string name="theme_backup_dialog_negative">Annuler</string>
+
+    <!-- Theme schedule -->
+    <string name="theme_schedule_title">Planification horaire</string>
+    <string name="theme_schedule_summary">Planifier un horaire pour les thèmes système</string>
+    <string name="theme_schedule_dyn_summary">thème planifié</string>
+    <string name="theme_schedule_theme_title">Planification horaire</string>
+    <string name="theme_schedule_theme_summary">Sélectionner un thème à planifier</string>
+    <string name="theme_schedule_none">Aucun</string>
+    <string name="theme_schedule_custom_time">Régler l\'heure de planification</string>
+    <string name="theme_schedule_applied">thème appliqué</string>
+    <string name="theme_schedule_start_scheduled">thème planifié à</string>
+    <string name="theme_schedule_repeat_title">Récurrence</string>
+    <string name="theme_schedule_repeat_summary">Planifier quotidiennement</string>
 
 </resources>
