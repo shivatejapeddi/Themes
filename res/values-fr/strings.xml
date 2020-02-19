@@ -100,8 +100,6 @@
     <string name="theme_backup_edittext_hint">Sauvegarde_</string>
     <string name="theme_backup_dialog_title">Fond d\'écran animé détecté</string>
     <string name="theme_backup_dialog_message">Présence d\'un fond d\'écran animé.\n\nLes fonds d\'écran animés ne sont pas sauvegardés. Le fond d\'écran par défaut est sauvegardé à la place.</string>
-    <string name="theme_backup_dialog_positive">OK</string>
-    <string name="theme_backup_dialog_negative">Annuler</string>
 
     <!-- Theme schedule -->
     <string name="theme_schedule_title">Planification horaire</string>
