@@ -51,6 +51,12 @@
         android:entries="@array/statusbar_icons_titles"
         android:entryValues="@array/statusbar_icons_values" />
 
+    <com.aosip.support.preference.SystemSettingSwitchPreference
+            android:key="qs_panel_bg_use_new_tint"
+            android:title="@string/qs_bg_use_new_tint"
+            android:summary="@string/qs_bg_use_new_tint_summary"
+            android:defaultValue="false" />
+
     <Preference
         android:key="clock_style"
         android:title="@string/clock_style_title"

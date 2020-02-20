@@ -175,4 +175,7 @@
     <string name="clock_style_title">Clock style</string>
     <string name="clock_style_summary">Customize lockscreen clock</string>
 
+    <!-- QS tile tint -->
+    <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
+    <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
 </resources>
