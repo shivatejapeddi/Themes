@@ -17,6 +17,9 @@
 
     <string name="app_name">Thèmes</string>
 
+    <!-- Footer -->
+    <string name="schedule_footer_info">Lors du réglage de planification horaire du thème, il faut régler en premier la planification de thème excluant l\'heure actuelle.\n\nPar example :\nSi l\'heure actuelle est 16H, et que la planification de thème désirée est de 6H à 18H, il faut d\'abord régler une planification de thème de 18H à 6H, puis régler la planification de thème de 6H à 18H.</string>
+
     <!-- Accent Picker -->
     <string name="accent_picker_dialog_title">Sélectionner une couleur d\'accentuation</string>
     <string name="theme_accent_picker_title">Couleur d\'accentuation</string>
@@ -103,6 +106,9 @@
     <string name="theme_backup_edittext_hint">Sauvegarde_</string>
     <string name="theme_backup_dialog_title">Fond d\'écran animé détecté</string>
     <string name="theme_backup_dialog_message">Présence d\'un fond d\'écran animé.\n\nLes fonds d\'écran animés ne sont pas sauvegardés. Le fond d\'écran par défaut est sauvegardé à la place.</string>
+    <string name="theme_reset_dialog_title">Réinitialisation</string>
+    <string name="theme_reset_dialog_message">Réinitialiser toutes les options de thème. Les planifications de thème ne sont pas concernées par la réinitialisation.</string>
+    <string name="theme_reset_toast">Options de thème réinitialisées</string>
 
     <!-- Theme schedule -->
     <string name="theme_schedule_title">Planification horaire</string>
