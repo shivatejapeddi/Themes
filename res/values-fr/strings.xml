@@ -14,12 +14,9 @@
      limitations under the License.
 -->
 <resources>
-
     <string name="app_name">Thèmes</string>
-
     <!-- Footer -->
     <string name="schedule_footer_info">Lors du réglage de planification horaire du thème, il faut régler en premier la planification de thème excluant l\'heure actuelle.\n\nPar example :\nSi l\'heure actuelle est 16H, et que la planification de thème désirée est de 6H à 18H, il faut d\'abord régler une planification de thème de 18H à 6H, puis régler la planification de thème de 6H à 18H.</string>
-
     <!-- Accent Picker -->
     <string name="accent_picker_dialog_title">Sélectionner une couleur d\'accentuation</string>
     <string name="theme_accent_picker_title">Couleur d\'accentuation</string>
@@ -27,23 +24,19 @@
     <string name="theme_accent_picker_default">Par défaut</string>
     <string name="accent_picker_stock_colors">Catégorie 1</string>
     <string name="accent_picker_custom_colors">Catégorie 2</string>
-
     <!-- Navbar Picker -->
-    <string name="theme_navbar_picker_title">Disposition de la barre de navigation</string>
-    <string name="theme_navbar_picker_summary">Réglages de la disposition de la barre de navigation</string>
+    <string name="theme_navbar_picker_title">Navbar style</string>
+    <string name="theme_navbar_picker_summary">Select navbar style</string>
     <string name="theme_navbar_picker_oneplus">OnePlus</string>
     <string name="theme_navbar_picker_oneui">One UI</string>
     <string name="theme_navbar_picker_tecno">Tecno Camon</string>
     <string name="theme_navbar_picker_asus">ASUS</string>
-
     <!-- Dark theme -->
     <string name="dark_theme_title">Thème foncé</string>
-
     <!-- Fonts -->
     <string name="font_type_title">Police d\'écriture</string>
     <string name="font_type_summary">Réglages de la police d\'écriture</string>
     <string name="font_type_default">Par défaut</string>
-
     <!-- Adaptive icon shapes -->
     <string name="adaptive_icon_shape_default">Par défaut</string>
     <string name="adaptive_icon_shape_teardrop">Goutte</string>
@@ -51,7 +44,6 @@
     <string name="adaptive_icon_shape_roundedrect">Rectangle arrondi</string>
     <string name="adaptive_icon_shape_title">Forme de l\'icône</string>
     <string name="adaptive_icon_shape_dialog_title">Réglages de l\'aspect de l\'icône</string>
-
     <!-- Statusbar icons -->
     <string name="statusbar_icons_default">Par défaut</string>
     <string name="statusbar_icons_filled">Pleines</string>
@@ -59,7 +51,6 @@
     <string name="statusbar_icons_circular">Très fines</string>
     <string name="statusbar_icons_title">Icônes de la barre d\'état</string>
     <string name="statusbar_icons_dialog_title">Icônes de la barre d\'état</string>
-
     <!-- Accents -->
     <string name="accent_colors_space">Bleu nuit</string>
     <string name="accent_colors_purple">Violet</string>
@@ -84,7 +75,6 @@
     <string name="accent_colors_red">Rouge</string>
     <string name="accent_colors_teal">Turquoise</string>
     <string name="accent_colors_yellow">Jaune</string>
-
     <!-- Themes -->
     <string name="theme_type_title">Thème du système</string>
     <string name="theme_type_summary">Sélectionner le thème</string>
@@ -117,7 +107,6 @@
     <string name="theme_reset_dialog_title">Réinitialisation</string>
     <string name="theme_reset_dialog_message">Réinitialiser toutes les options de thème. Les planifications de thème ne sont pas concernées par la réinitialisation.</string>
     <string name="theme_reset_toast">Options de thème réinitialisées</string>
-
     <!-- Theme schedule -->
     <string name="theme_schedule_title">Planification horaire</string>
     <string name="theme_schedule_summary">Planifier un horaire pour les thèmes système</string>
@@ -132,5 +121,4 @@
     <string name="theme_schedule_repeat_summary">Planifier quotidiennement</string>
     <string name="theme_schedule_toasts_title">Notification</string>
     <string name="theme_schedule_toasts_summary">Afficher une notification lors du changement de thème planifié</string>
-
 </resources>

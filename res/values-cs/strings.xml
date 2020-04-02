@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019-2020 The Dirty Unicorns Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Motivy</string>
+    <!-- Footer -->
+    <string name="schedule_footer_info">Při nastavování plánu vždy nastavte čas prvního naplánovaní k aktuálnímu času.\n\nNapříklad:\nKdyž je aktuální čas 16:00 a vy chcete nastavit plán od 06:00 do 18:00, měli byste nastavit první motiv na 18:00 a druhý na 06:00 hodin.</string>
+    <!-- Accent Picker -->
+    <string name="accent_picker_dialog_title">Vyberte odstín</string>
+    <string name="theme_accent_picker_title">Barva zvýraznění</string>
+    <string name="theme_accent_picker_summary">Zvolte barvu zvýraznění pro motiv systému</string>
+    <string name="theme_accent_picker_default">Výchozí</string>
+    <string name="accent_picker_stock_colors">Stock</string>
+    <string name="accent_picker_custom_colors">Vlastní</string>
+    <!-- Navbar Picker -->
+    <string name="theme_navbar_picker_title">Styl navigačního panelu</string>
+    <string name="theme_navbar_picker_summary">Vyberte styl navigačního panelu</string>
+    <string name="theme_navbar_picker_oneplus">OnePlus</string>
+    <string name="theme_navbar_picker_oneui">One UI</string>
+    <string name="theme_navbar_picker_tecno">Tecno Camon</string>
+    <string name="theme_navbar_picker_asus">ASUS</string>
+    <!-- Dark theme -->
+    <string name="dark_theme_title">Tmavý motiv</string>
+    <!-- Fonts -->
+    <string name="font_type_title">Typ písma</string>
+    <string name="font_type_summary">Zvolte typ písma</string>
+    <string name="font_type_default">Výchozí</string>
+    <!-- Adaptive icon shapes -->
+    <string name="adaptive_icon_shape_default">Výchozí</string>
+    <string name="adaptive_icon_shape_teardrop">Slza</string>
+    <string name="adaptive_icon_shape_squircle">Superelipsa</string>
+    <string name="adaptive_icon_shape_roundedrect">Zaoblený obdélník</string>
+    <string name="adaptive_icon_shape_title">Tvar ikony</string>
+    <string name="adaptive_icon_shape_dialog_title">Vyberte tvar ikon</string>
+    <!-- Statusbar icons -->
+    <string name="statusbar_icons_default">Výchozí</string>
+    <string name="statusbar_icons_filled">Vyplněný</string>
+    <string name="statusbar_icons_rounded">Zaoblený</string>
+    <string name="statusbar_icons_circular">Kruhový</string>
+    <string name="statusbar_icons_title">Ikony na stavovém řádku/QS</string>
+    <string name="statusbar_icons_dialog_title">Vyberte sadu ikonu stavového řádku</string>
+    <!-- Accents -->
+    <string name="accent_colors_space">Vesmír</string>
+    <string name="accent_colors_purple">Fialová</string>
+    <string name="accent_colors_orchid">Orchideová</string>
+    <string name="accent_colors_ocean">Oceánská</string>
+    <string name="accent_colors_green">Zelená</string>
+    <string name="accent_colors_cinnamon">Skořicová</string>
+    <string name="accent_colors_amber">Jantarová</string>
+    <string name="accent_colors_blue">Modrá</string>
+    <string name="accent_colors_bluegrey">Modro šedá</string>
+    <string name="accent_colors_brown">Hnědá</string>
+    <string name="accent_colors_cyan">Tyrkysová</string>
+    <string name="accent_colors_deeporange">Tmavě oranžová</string>
+    <string name="accent_colors_deeppurple">Tmavě fialová</string>
+    <string name="accent_colors_grey">Šedá</string>
+    <string name="accent_colors_indigo">Indigo</string>
+    <string name="accent_colors_lightblue">Světle modrá</string>
+    <string name="accent_colors_lightgreen">Světle zelená</string>
+    <string name="accent_colors_lime">Limetková</string>
+    <string name="accent_colors_orange">Oranžová</string>
+    <string name="accent_colors_pink">Růžová</string>
+    <string name="accent_colors_red">Červená</string>
+    <string name="accent_colors_teal">Modrozelená</string>
+    <string name="accent_colors_yellow">Žlutá</string>
+    <!-- Themes -->
+    <string name="theme_type_title">Motiv systému</string>
+    <string name="theme_type_summary">Vyberte motiv</string>
+    <string name="theme_type_light">Světlý</string>
+    <string name="theme_type_google_dark">Tmavý - Google</string>
+    <string name="theme_type_pitch_black">Pitch Black</string>
+    <string name="theme_type_solarized_dark">Tmavý - Solarized</string>
+    <string name="theme_other_category_title">Další</string>
+    <string name="theme_backup_title">Zálohovat motiv</string>
+    <string name="theme_backup_summary">Zálohujte aktuální konfiguraci motivu</string>
+    <string name="theme_backup_reach_limit_summary">Dosažen limit záloh</string>
+    <string name="theme_restore_title">Obnovit motiv</string>
+    <string name="theme_restore_summary">Obnovte uloženou konfiguraci motivu</string>
+    <string name="theme_restore_no_backup_summary">K dispozici není žádná záloha</string>
+    <string name="theme_restore_popup_title">Potáhnutím vodorovně zobrazíte další zálohy</string>
+    <string name="theme_name_exist_warning">Tento název zálohy již existuje. Zadejte nový.</string>
+    <string name="theme_rename_dialog_title">Přejmenovat motiv</string>
+    <string name="theme_button_apply_theme">Použít motiv</string>
+    <string name="theme_button_delete_theme">Odstranit motiv</string>
+    <string name="theme_switch_persistent_title">Stav trvalých přepínačů</string>
+    <string name="theme_switch_restore_theme_color">Barva pozadí</string>
+    <string name="theme_switch_restore_accent_color">Barva zvýraznění</string>
+    <string name="theme_switch_restore_font_type">Typ písma</string>
+    <string name="theme_switch_restore_adaptative_icons">Adaptivní ikony</string>
+    <string name="theme_switch_restore_sb_icons">Ikony stavového řádku</string>
+    <string name="theme_switch_restore_wallpaper">Tapeta</string>
+    <string name="theme_backup_edittext_hint">Záloha_</string>
+    <string name="theme_backup_dialog_title">Nalezena živá tapeta</string>
+    <string name="theme_backup_dialog_message">Zdá se, že máte aplikovanou živou tapetu.\n\nUpozorňujeme, že živé tapety nebudou zálohovány. Místo toho bude zálohována výchozí tapeta.</string>
+    <string name="theme_reset_dialog_title">Obnovit možnosti motivu</string>
+    <string name="theme_reset_dialog_message">Všechny možnosti motivu budou obnoveny na výchozí hodnoty. Tímto nebude ovlivněn plán.</string>
+    <string name="theme_reset_toast">Možnosti motivu vráceny na výchozí nastavení</string>
+    <!-- Theme schedule -->
+    <string name="theme_schedule_title">Plán</string>
+    <string name="theme_schedule_summary">Nastavte plán pro motivy systému</string>
+    <string name="theme_schedule_dyn_summary">motiv je naplánován</string>
+    <string name="theme_schedule_theme_title">Naplánovat motiv</string>
+    <string name="theme_schedule_theme_summary">Vyberte motiv k naplánování</string>
+    <string name="theme_schedule_none">Žádný</string>
+    <string name="theme_schedule_custom_time">Zapnuto v uživatelském čase</string>
+    <string name="theme_schedule_applied">motiv použit</string>
+    <string name="theme_schedule_start_scheduled">motiv se spustí v</string>
+    <string name="theme_schedule_repeat_title">Opakovat plán</string>
+    <string name="theme_schedule_repeat_summary">Plán se bude opakovat denně</string>
+    <string name="theme_schedule_toasts_title">Zobrazit informační text</string>
+    <string name="theme_schedule_toasts_summary">Zobrazit informační text při spuštění naplánovaných motivů</string>
+</resources>

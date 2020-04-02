@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019-2020 The Dirty Unicorns Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Temalar</string>
+    <!-- Footer -->
+    <string name="schedule_footer_info">Bir program ayarlarken, daima ilk program saatinin geçerli saatinize göre ayarlayın.\n\nÖrneğin:\nGeçerli saat 16:00 ise ve 06:00 ile 18:00 arasında bir proglama ayarlamak istiyorsanız, ilk temayı 18:00\'a, sonra ikinci temayı 06:00\'a ayarlayın.</string>
+    <!-- Accent Picker -->
+    <string name="accent_picker_dialog_title">Vurgu rengi seçin</string>
+    <string name="theme_accent_picker_title">Vurgu rengi</string>
+    <string name="theme_accent_picker_summary">Sistem teması için vurgu rengi seçin</string>
+    <string name="theme_accent_picker_default">Varsayılan</string>
+    <string name="accent_picker_stock_colors">Mevcut</string>
+    <string name="accent_picker_custom_colors">Özel</string>
+    <!-- Navbar Picker -->
+    <string name="theme_navbar_picker_title">Durum çubuğu stili</string>
+    <string name="theme_navbar_picker_summary">Durum çubuğu stili seçin</string>
+    <string name="theme_navbar_picker_oneplus">OnePlus</string>
+    <string name="theme_navbar_picker_oneui">One UI</string>
+    <string name="theme_navbar_picker_tecno">Tecno Camon</string>
+    <string name="theme_navbar_picker_asus">ASUS</string>
+    <!-- Dark theme -->
+    <string name="dark_theme_title">Karanlık tema</string>
+    <!-- Fonts -->
+    <string name="font_type_title">Yazı tipi stili</string>
+    <string name="font_type_summary">Yazı tipi stili seçin</string>
+    <string name="font_type_default">Varsayılan</string>
+    <!-- Adaptive icon shapes -->
+    <string name="adaptive_icon_shape_default">Varsayılan</string>
+    <string name="adaptive_icon_shape_teardrop">Gözyaşı</string>
+    <string name="adaptive_icon_shape_squircle">Köşeli kare</string>
+    <string name="adaptive_icon_shape_roundedrect">Yuvarlatılmış Dikdörtgen</string>
+    <string name="adaptive_icon_shape_title">Simge şekli</string>
+    <string name="adaptive_icon_shape_dialog_title">Simge şeklini seçin</string>
+    <!-- Statusbar icons -->
+    <string name="statusbar_icons_default">Varsayılan</string>
+    <string name="statusbar_icons_filled">Doldurulan</string>
+    <string name="statusbar_icons_rounded">Yuvarlatılmış</string>
+    <string name="statusbar_icons_circular">Yuvarlak</string>
+    <string name="statusbar_icons_title">Durum çubuğu/Hızlı ayarlar simgeleri</string>
+    <string name="statusbar_icons_dialog_title">Durum çubuğu simge paketini seçin</string>
+    <!-- Accents -->
+    <string name="accent_colors_space">Boşluk</string>
+    <string name="accent_colors_purple">Mor</string>
+    <string name="accent_colors_orchid">Orkide</string>
+    <string name="accent_colors_ocean">Okyanus</string>
+    <string name="accent_colors_green">Yeşil</string>
+    <string name="accent_colors_cinnamon">Tarçın</string>
+    <string name="accent_colors_amber">Koyu sarı</string>
+    <string name="accent_colors_blue">Mavi</string>
+    <string name="accent_colors_bluegrey">Mavi Gri</string>
+    <string name="accent_colors_brown">Kahverengi</string>
+    <string name="accent_colors_cyan">Camgöbeği</string>
+    <string name="accent_colors_deeporange">Koyu Turuncu</string>
+    <string name="accent_colors_deeppurple">Koyu Mor</string>
+    <string name="accent_colors_grey">Gri</string>
+    <string name="accent_colors_indigo">İndigo</string>
+    <string name="accent_colors_lightblue">Açık Mavi</string>
+    <string name="accent_colors_lightgreen">Açık Yeşil</string>
+    <string name="accent_colors_lime">Limon yeşili</string>
+    <string name="accent_colors_orange">Turuncu</string>
+    <string name="accent_colors_pink">Pembe</string>
+    <string name="accent_colors_red">Kırmızı</string>
+    <string name="accent_colors_teal">Yeşilimsi mavi</string>
+    <string name="accent_colors_yellow">Sarı</string>
+    <!-- Themes -->
+    <string name="theme_type_title">Sistem teması</string>
+    <string name="theme_type_summary">Tema seçin</string>
+    <string name="theme_type_light">Aydınlık</string>
+    <string name="theme_type_google_dark">Google karanlık</string>
+    <string name="theme_type_pitch_black">Zifiri karanlık</string>
+    <string name="theme_type_solarized_dark">Solarized dark</string>
+    <string name="theme_other_category_title">Diğer</string>
+    <string name="theme_backup_title">Temayı yedekle</string>
+    <string name="theme_backup_summary">Mevcut tema yapılandırmanızı yedekleyin</string>
+    <string name="theme_backup_reach_limit_summary">Yedekleme sınırına ulaşıldı</string>
+    <string name="theme_restore_title">Temayı geri yükle</string>
+    <string name="theme_restore_summary">Kaydedilmiş bir tema yapılandırmasını geri yükle</string>
+    <string name="theme_restore_no_backup_summary">Yedekleme yok</string>
+    <string name="theme_restore_popup_title">Daha fazla yedek görüntülemek için yatay olarak kaydırın</string>
+    <string name="theme_name_exist_warning">Bu yedekleme adı zaten var. Yeni bir tane girin.</string>
+    <string name="theme_rename_dialog_title">Temayı yeniden adlandır</string>
+    <string name="theme_button_apply_theme">Temayı uygula</string>
+    <string name="theme_button_delete_theme">Temayı sil</string>
+    <string name="theme_switch_persistent_title">Kalıcı değiştirme durumu</string>
+    <string name="theme_switch_restore_theme_color">Arka plan rengi</string>
+    <string name="theme_switch_restore_accent_color">Vurgu rengi</string>
+    <string name="theme_switch_restore_font_type">Yazı tipi</string>
+    <string name="theme_switch_restore_adaptative_icons">Uyarlamalı simgeler</string>
+    <string name="theme_switch_restore_sb_icons">Durum çubuğu simgeleri</string>
+    <string name="theme_switch_restore_wallpaper">Duvar kağıdı</string>
+    <string name="theme_backup_edittext_hint">Geri yükle_</string>
+    <string name="theme_backup_dialog_title">Canlı duvar kağıdı algılandı</string>
+    <string name="theme_backup_dialog_message">Görünüşe göre canlı bir duvar kağıdı uyguladınız.\n\nCanlı duvar kağıtlarının yedeklenmeyeceğini lütfen unutmayın. Bunun yerine varsayılan duvar kağıdı yedeklenir.</string>
+    <string name="theme_reset_dialog_title">Tema seçeneklerini sıfırla</string>
+    <string name="theme_reset_dialog_message">Tüm tema seçenekleri varsayılana sıfırlanacaktır. Programlama bundan etkilenmeyecektir.</string>
+    <string name="theme_reset_toast">Tema seçenekleri varsayılana dönüyor</string>
+    <!-- Theme schedule -->
+    <string name="theme_schedule_title">Programla</string>
+    <string name="theme_schedule_summary">Sistem temaları için bir programlama ayarla</string>
+    <string name="theme_schedule_dyn_summary">tema programlandı</string>
+    <string name="theme_schedule_theme_title">Tema programla</string>
+    <string name="theme_schedule_theme_summary">Programlanacak bir tema seçin</string>
+    <string name="theme_schedule_none">Hiçbiri</string>
+    <string name="theme_schedule_custom_time">Belirlenen zamanda açılır</string>
+    <string name="theme_schedule_applied">tema uygulandı</string>
+    <string name="theme_schedule_start_scheduled">tema başlatılıyor</string>
+    <string name="theme_schedule_repeat_title">Programı tekrarla</string>
+    <string name="theme_schedule_repeat_summary">Programı günlük olarak tekrarlar</string>
+    <string name="theme_schedule_toasts_title">Hızlı bildirimleri göster</string>
+    <string name="theme_schedule_toasts_summary">Programlanmış temalar başlatıldığında hızlı bildirimler göster</string>
+</resources>
