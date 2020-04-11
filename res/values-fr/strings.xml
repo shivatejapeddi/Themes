@@ -25,8 +25,8 @@
     <string name="accent_picker_stock_colors">Catégorie 1</string>
     <string name="accent_picker_custom_colors">Catégorie 2</string>
     <!-- Navbar Picker -->
-    <string name="theme_navbar_picker_title">Navbar style</string>
-    <string name="theme_navbar_picker_summary">Select navbar style</string>
+    <string name="theme_navbar_picker_title">Disposition de la barre de navigation</string>
+    <string name="theme_navbar_picker_summary">Réglages de la disposition de la barre de navigation</string>
     <string name="theme_navbar_picker_oneplus">OnePlus</string>
     <string name="theme_navbar_picker_oneui">One UI</string>
     <string name="theme_navbar_picker_tecno">Tecno Camon</string>
@@ -100,7 +100,7 @@
     <string name="theme_switch_restore_font_type">Police d\'écriture</string>
     <string name="theme_switch_restore_adaptative_icons">Apparence des icônes</string>
     <string name="theme_switch_restore_sb_icons">Icônes de la barre d\'état</string>
-    <string name="theme_switch_restore_navbar">Navigation bar</string>
+    <string name="theme_switch_restore_navbar">Barre de navigation</string>
     <string name="theme_switch_restore_wallpaper">Fond d\'écran</string>
     <string name="theme_backup_edittext_hint">Sauvegarde_</string>
     <string name="theme_backup_dialog_title">Fond d\'écran animé détecté</string>
