@@ -100,7 +100,7 @@
     <string name="theme_switch_restore_font_type">Typ písma</string>
     <string name="theme_switch_restore_adaptative_icons">Adaptivní ikony</string>
     <string name="theme_switch_restore_sb_icons">Ikony stavového řádku</string>
-    <string name="theme_switch_restore_navbar">Navigation bar</string>
+    <string name="theme_switch_restore_navbar">Navigační panel</string>
     <string name="theme_switch_restore_wallpaper">Tapeta</string>
     <string name="theme_backup_edittext_hint">Záloha_</string>
     <string name="theme_backup_dialog_title">Nalezena živá tapeta</string>
