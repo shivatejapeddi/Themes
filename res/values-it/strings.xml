@@ -79,7 +79,7 @@
     <string name="theme_type_title">Tema di sistema</string>
     <string name="theme_type_summary">Seleziona tema</string>
     <string name="theme_type_light">Chiaro</string>
-    <string name="theme_type_google_dark">Nero Google</string>
+    <string name="theme_type_google_dark">Scuro Google</string>
     <string name="theme_type_pitch_black">Nero</string>
     <string name="theme_type_solarized_dark">Solarizzato Scuro</string>
     <string name="theme_other_category_title">Altro</string>
