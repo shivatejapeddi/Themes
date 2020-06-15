@@ -53,6 +53,7 @@
     <string name="font_type_9" translatable="false">Samsung One</string>
     <string name="font_type_10" translatable="false">Fira Sans</string>
     <string name="font_type_11" translatable="false">Ubuntu</string>
+    <string name="font_type_12" translatable="false">Titillium Web</string>
 
     <!-- Adaptive icon shapes -->
     <string name="adaptive_icon_shape_default">Default</string>
@@ -145,4 +146,3 @@
     <string name="theme_schedule_toasts_summary">Show toasts when scheduled themes are launched</string>
 
 </resources>
-
