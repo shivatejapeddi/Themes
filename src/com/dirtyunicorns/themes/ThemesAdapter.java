@@ -479,6 +479,9 @@ public class ThemesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             case 12:
                 fontType = Typeface.createFromAsset(mResources.getAssets(), "fonts/TitilliumWeb.ttf");
                 break;
+            case 13:
+                fontType = Typeface.createFromAsset(mResources.getAssets(), "fonts/CaviarDreams.ttf");
+                break;
         }
         return fontType;
     }
