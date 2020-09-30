@@ -170,4 +170,8 @@
     <string name="theme_schedule_toasts_title">Show toasts</string>
     <string name="theme_schedule_toasts_summary">Show toasts when scheduled themes are launched</string>
 
+    <!-- Clock style -->
+    <string name="clock_style_title">Clock style</string>
+    <string name="clock_style_summary">Customize lockscreen clock</string>
+
 </resources>
