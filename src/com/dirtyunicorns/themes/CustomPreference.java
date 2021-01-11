@@ -21,7 +21,7 @@ import android.util.AttributeSet;
 
 import androidx.preference.Preference;
 
-import com.android.internal.util.du.Utils;
+import com.android.internal.util.aosip.AOSiPUtils;
 
 public class CustomPreference extends Preference {
 
@@ -46,11 +46,11 @@ public class CustomPreference extends Preference {
     }
 
     private void setResources() {
-        if (Utils.isThemeEnabled("com.android.theme.icon_pack.filled.android")) {
+        if (AOSiPUtils.isThemeEnabled("com.android.theme.icon_pack.filled.android")) {
             setLayoutResource(R.layout.themes_main_filled);
-        } else if (Utils.isThemeEnabled("com.android.theme.icon_pack.rounded.android")) {
+        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.icon_pack.rounded.android")) {
             setLayoutResource(R.layout.themes_main_rounded);
-        } else if (Utils.isThemeEnabled("com.android.theme.icon_pack.circular.android")) {
+        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.icon_pack.circular.android")) {
             setLayoutResource(R.layout.themes_main_circular);
         } else {
             setLayoutResource(R.layout.themes_main);

@@ -29,7 +29,7 @@ import android.widget.RelativeLayout;
 
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.util.du.ThemesUtils;
+import com.android.internal.util.aosip.ThemesUtils;
 
 public class NavbarPicker extends DialogFragment {
 

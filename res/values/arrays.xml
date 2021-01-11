@@ -84,6 +84,12 @@
         <item>@string/theme_type_google_dark</item>
         <item>@string/theme_type_pitch_black</item>
         <item>@string/theme_type_solarized_dark</item>
+        <item>@string/theme_type_charcoal_black</item>
+        <item>@string/theme_type_clear</item>
+        <item>@string/theme_type_ethereal</item>
+        <item>@string/theme_type_flame</item>
+        <item>@string/theme_type_nature</item>
+        <item>@string/theme_type_ocean</item>
     </string-array>
 
     <string-array name="theme_type_values">
@@ -91,6 +97,12 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
     </string-array>
 
     <!-- Themes schedule -->
@@ -109,6 +121,12 @@
         <item>@string/theme_type_google_dark</item>
         <item>@string/theme_type_pitch_black</item>
         <item>@string/theme_type_solarized_dark</item>
+        <item>@string/theme_type_clear</item>
+        <item>@string/theme_type_charcoal_black</item>
+        <item>@string/theme_type_ethereal</item>
+        <item>@string/theme_type_flame</item>
+        <item>@string/theme_type_nature</item>
+        <item>@string/theme_type_ocean</item>
     </string-array>
 
     <string-array name="theme_scheduled_values">
@@ -116,6 +134,12 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
     </string-array>
 
     <!-- Accent name -->

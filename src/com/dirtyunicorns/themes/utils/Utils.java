@@ -48,7 +48,7 @@ import android.widget.Button;
 
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.util.du.ThemesUtils;
+import com.android.internal.util.aosip.ThemesUtils;
 
 import com.dirtyunicorns.themes.R;
 import com.dirtyunicorns.themes.receivers.ThemesEndReceiver;
@@ -165,7 +165,7 @@ public class Utils {
     }
 
     public static void setForegroundDrawable(String packagename, Button buttonAccent, Activity activity) {
-        if (com.android.internal.util.du.Utils.isThemeEnabled(packagename)) {
+        if (com.android.internal.util.aosip.AOSiPUtils.isThemeEnabled(packagename)) {
             buttonAccent.setForeground(activity.getResources().getDrawable(
                     R.drawable.accent_picker_checkmark, null));
         } else {
@@ -261,7 +261,7 @@ public class Utils {
         boolean navigationBar = Settings.System.getInt(context.getContentResolver(),
                 Settings.System.FORCE_SHOW_NAVBAR, defaultToNavigationBar ? 1 : 0) == 1;
         boolean hasNavbar = false;
-        hasNavbar = com.android.internal.util.du.Utils.isThemeEnabled(
+        hasNavbar = com.android.internal.util.aosip.AOSiPUtils.isThemeEnabled(
                 "com.android.internal.systemui.navbar.threebutton") && navigationBar;
         return hasNavbar;
     }

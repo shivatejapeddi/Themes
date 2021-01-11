@@ -51,7 +51,7 @@
         android:entries="@array/statusbar_icons_titles"
         android:entryValues="@array/statusbar_icons_values" />
 
-    <com.dirtyunicorns.support.preferences.CustomPreferenceCategory
+    <com.aosip.support.preference.CustomPreferenceCategory
         android:title="@string/theme_type_title" >
 
         <ListPreference
@@ -66,9 +66,9 @@
             android:key="theme_schedule"
             android:title="@string/theme_schedule_title" />
 
-    </com.dirtyunicorns.support.preferences.CustomPreferenceCategory>
+    </com.aosip.support.preference.CustomPreferenceCategory>
 
-    <com.dirtyunicorns.support.preferences.CustomPreferenceCategory
+    <com.aosip.support.preference.CustomPreferenceCategory
         android:key="theme_other_category"
         android:title="@string/theme_other_category_title">
 
@@ -80,6 +80,6 @@
             android:key="restore_themes"
             android:title="@string/theme_restore_title" />
 
-    </com.dirtyunicorns.support.preferences.CustomPreferenceCategory>
+    </com.aosip.support.preference.CustomPreferenceCategory>
 
 </PreferenceScreen>
