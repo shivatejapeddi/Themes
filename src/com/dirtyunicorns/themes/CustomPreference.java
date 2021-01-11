@@ -52,6 +52,12 @@ public class CustomPreference extends Preference {
             setLayoutResource(R.layout.themes_main_rounded);
         } else if (AOSiPUtils.isThemeEnabled("com.android.theme.icon_pack.circular.android")) {
             setLayoutResource(R.layout.themes_main_circular);
+        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.icon_pack.kai.android")) {
+            setLayoutResource(R.layout.themes_main_kai);
+        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.icon_pack.sam.android")) {
+            setLayoutResource(R.layout.themes_main_sam);
+        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.icon_pack.victor.android")) {
+            setLayoutResource(R.layout.themes_main_victor);
         } else {
             setLayoutResource(R.layout.themes_main);
         }

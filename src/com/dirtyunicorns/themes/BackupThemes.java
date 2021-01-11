@@ -221,6 +221,15 @@ public class BackupThemes extends DialogFragment {
             case 4:
                 mRelativeLayout = R.layout.themes_main_circular;
                 break;
+            case 5:
+                mRelativeLayout = R.layout.themes_main_kai;
+                break;
+            case 6:
+                mRelativeLayout = R.layout.themes_main_sam;
+                break;
+            case 7:
+                mRelativeLayout = R.layout.themes_main_victor;
+                break;
         }
         return mRelativeLayout;
     }

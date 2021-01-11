@@ -210,6 +210,114 @@ public class ThemesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         }
     }
 
+    class ViewHolderKai extends RecyclerView.ViewHolder {
+
+        ImageView mWpBgKai;
+        ImageView mQsAccentMainKaiWifi, mQSTileMainKaiWifiActive;
+        ImageView mQsTileMainKaiBgBluetoothInactive, mQsTileMainKaiIconBluetoothInactive;
+        ImageView mQsAccentMainKaiDnd, mQsTileMainKaiDndActive;
+        ImageView mQsTileMainKaiBgFlashlightInactive, mQsTileMainKaiIconFlashlightInactive;
+        ImageView mQsAccentMainKaiAutorotate, mQsTileMainKaiAutorotateActive;
+        ImageView mQsTileMainKaiBgBatterySaverInactive, mQsTileMainKaiIconBatterySaverInactive;
+        ImageView mViewNavbarMainKai;
+        LinearLayout mLlBgMainKai;
+        TextView mThemeMainKaiName;
+        View mViewSpacerMainKai;
+
+        ViewHolderKai(View view) {
+            super(view);
+            mWpBgKai = view.findViewById(R.id.wp_bg_main_kai);
+            mLlBgMainKai = view.findViewById(R.id.ll_qs_bg_main_kai);
+            mQsAccentMainKaiWifi = view.findViewById(R.id.qs_accent_main_kai_wifi);
+            mQSTileMainKaiWifiActive = view.findViewById(R.id.qs_tile_main_kai_wifi_active);
+            mQsTileMainKaiBgBluetoothInactive = view.findViewById(R.id.qs_tile_main_kai_bg_bluetooth_inactive);
+            mQsTileMainKaiIconBluetoothInactive = view.findViewById(R.id.qs_tile_main_kai_icon_bluetooth_inactive);
+            mQsAccentMainKaiDnd = view.findViewById(R.id.qs_accent_main_kai_dnd);
+            mQsTileMainKaiDndActive = view.findViewById(R.id.qs_tile_main_kai_dnd_active);
+            mQsTileMainKaiBgFlashlightInactive = view.findViewById(R.id.qs_tile_main_kai_bg_flashlight_inactive);
+            mQsTileMainKaiIconFlashlightInactive = view.findViewById(R.id.qs_tile_main_kai_icon_flashlight_inactive);
+            mQsAccentMainKaiAutorotate = view.findViewById(R.id.qs_accent_main_kai_autorotate);
+            mQsTileMainKaiAutorotateActive = view.findViewById(R.id.qs_tile_main_kai_autorotate_active);
+            mQsTileMainKaiBgBatterySaverInactive = view.findViewById(R.id.qs_tile_main_kai_bg_battery_saver_inactive);
+            mQsTileMainKaiIconBatterySaverInactive = view.findViewById(R.id.qs_tile_main_kai_icon_battery_saver_inactive);
+            mViewSpacerMainKai = view.findViewById(R.id.ic_themes_qs_spacer_main_kai);
+            mViewNavbarMainKai = view.findViewById(R.id.themes_navbar_style_main_kai);
+            mThemeMainKaiName = view.findViewById(R.id.theme_main_kai_name);
+        }
+    }
+
+    class ViewHolderSam extends RecyclerView.ViewHolder {
+
+        ImageView mWpBgSam;
+        ImageView mQsAccentMainSamWifi, mQSTileMainSamWifiActive;
+        ImageView mQsTileMainSamBgBluetoothInactive, mQsTileMainSamIconBluetoothInactive;
+        ImageView mQsAccentMainSamDnd, mQsTileMainSamDndActive;
+        ImageView mQsTileMainSamBgFlashlightInactive, mQsTileMainSamIconFlashlightInactive;
+        ImageView mQsAccentMainSamAutorotate, mQsTileMainSamAutorotateActive;
+        ImageView mQsTileMainSamBgBatterySaverInactive, mQsTileMainSamIconBatterySaverInactive;
+        ImageView mViewNavbarMainSam;
+        LinearLayout mLlBgMainSam;
+        TextView mThemeMainSamName;
+        View mViewSpacerMainSam;
+
+        ViewHolderSam(View view) {
+            super(view);
+            mWpBgSam = view.findViewById(R.id.wp_bg_main_sam);
+            mLlBgMainSam = view.findViewById(R.id.ll_qs_bg_main_sam);
+            mQsAccentMainSamWifi = view.findViewById(R.id.qs_accent_main_sam_wifi);
+            mQSTileMainSamWifiActive = view.findViewById(R.id.qs_tile_main_sam_wifi_active);
+            mQsTileMainSamBgBluetoothInactive = view.findViewById(R.id.qs_tile_main_sam_bg_bluetooth_inactive);
+            mQsTileMainSamIconBluetoothInactive = view.findViewById(R.id.qs_tile_main_sam_icon_bluetooth_inactive);
+            mQsAccentMainSamDnd = view.findViewById(R.id.qs_accent_main_sam_dnd);
+            mQsTileMainSamDndActive = view.findViewById(R.id.qs_tile_main_sam_dnd_active);
+            mQsTileMainSamBgFlashlightInactive = view.findViewById(R.id.qs_tile_main_sam_bg_flashlight_inactive);
+            mQsTileMainSamIconFlashlightInactive = view.findViewById(R.id.qs_tile_main_sam_icon_flashlight_inactive);
+            mQsAccentMainSamAutorotate = view.findViewById(R.id.qs_accent_main_sam_autorotate);
+            mQsTileMainSamAutorotateActive = view.findViewById(R.id.qs_tile_main_sam_autorotate_active);
+            mQsTileMainSamBgBatterySaverInactive = view.findViewById(R.id.qs_tile_main_sam_bg_battery_saver_inactive);
+            mQsTileMainSamIconBatterySaverInactive = view.findViewById(R.id.qs_tile_main_sam_icon_battery_saver_inactive);
+            mViewSpacerMainSam = view.findViewById(R.id.ic_themes_qs_spacer_main_sam);
+            mViewNavbarMainSam = view.findViewById(R.id.themes_navbar_style_main_sam);
+            mThemeMainSamName = view.findViewById(R.id.theme_main_sam_name);
+        }
+    }
+
+    class ViewHolderVictor extends RecyclerView.ViewHolder {
+
+        ImageView mWpBgVictor;
+        ImageView mQsAccentMainVictorWifi, mQSTileMainVictorWifiActive;
+        ImageView mQsTileMainVictorBgBluetoothInactive, mQsTileMainVictorIconBluetoothInactive;
+        ImageView mQsAccentMainVictorDnd, mQsTileMainVictorDndActive;
+        ImageView mQsTileMainVictorBgFlashlightInactive, mQsTileMainVictorIconFlashlightInactive;
+        ImageView mQsAccentMainVictorAutorotate, mQsTileMainVictorAutorotateActive;
+        ImageView mQsTileMainVictorBgBatterySaverInactive, mQsTileMainVictorIconBatterySaverInactive;
+        ImageView mViewNavbarMainVictor;
+        LinearLayout mLlBgMainVictor;
+        TextView mThemeMainVictorName;
+        View mViewSpacerMainVictor;
+
+        ViewHolderVictor(View view) {
+            super(view);
+            mWpBgVictor = view.findViewById(R.id.wp_bg_main_victor);
+            mLlBgMainVictor = view.findViewById(R.id.ll_qs_bg_main_victor);
+            mQsAccentMainVictorWifi = view.findViewById(R.id.qs_accent_main_victor_wifi);
+            mQSTileMainVictorWifiActive = view.findViewById(R.id.qs_tile_main_victor_wifi_active);
+            mQsTileMainVictorBgBluetoothInactive = view.findViewById(R.id.qs_tile_main_victor_bg_bluetooth_inactive);
+            mQsTileMainVictorIconBluetoothInactive = view.findViewById(R.id.qs_tile_main_victor_icon_bluetooth_inactive);
+            mQsAccentMainVictorDnd = view.findViewById(R.id.qs_accent_main_victor_dnd);
+            mQsTileMainVictorDndActive = view.findViewById(R.id.qs_tile_main_victor_dnd_active);
+            mQsTileMainVictorBgFlashlightInactive = view.findViewById(R.id.qs_tile_main_victor_bg_flashlight_inactive);
+            mQsTileMainVictorIconFlashlightInactive = view.findViewById(R.id.qs_tile_main_victor_icon_flashlight_inactive);
+            mQsAccentMainVictorAutorotate = view.findViewById(R.id.qs_accent_main_victor_autorotate);
+            mQsTileMainVictorAutorotateActive = view.findViewById(R.id.qs_tile_main_victor_autorotate_active);
+            mQsTileMainVictorBgBatterySaverInactive = view.findViewById(R.id.qs_tile_main_victor_bg_battery_saver_inactive);
+            mQsTileMainVictorIconBatterySaverInactive = view.findViewById(R.id.qs_tile_main_victor_icon_battery_saver_inactive);
+            mViewSpacerMainVictor = view.findViewById(R.id.ic_themes_qs_spacer_main_victor);
+            mViewNavbarMainVictor = view.findViewById(R.id.themes_navbar_style_main_victor);
+            mThemeMainVictorName = view.findViewById(R.id.theme_main_victor_name);
+        }
+    }
+
     @Override
     public int getItemViewType(int position) {
         ThemesListItem themes = mThemesList.get(position);
@@ -236,6 +344,18 @@ public class ThemesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             case 4:
                 mViewHolder = new ViewHolderCircular(LayoutInflater.from(parent.getContext())
                     .inflate(R.layout.restore_themes_main_circular, parent, false));
+                break;
+            case 5:
+                mViewHolder = new ViewHolderKai(LayoutInflater.from(parent.getContext())
+                    .inflate(R.layout.restore_themes_main_kai, parent, false));
+                break;
+            case 6:
+                mViewHolder = new ViewHolderSam(LayoutInflater.from(parent.getContext())
+                    .inflate(R.layout.restore_themes_main_sam, parent, false));
+                break;
+            case 7:
+                mViewHolder = new ViewHolderVictor(LayoutInflater.from(parent.getContext())
+                    .inflate(R.layout.restore_themes_main_victor, parent, false));
                 break;
         }
         return mViewHolder;
@@ -394,6 +514,105 @@ public class ThemesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                 }
                 viewHolderCircular.mThemeMainCircularName.setText(themeName);
                 viewHolderCircular.mThemeMainCircularName.setTypeface(getTypeface());
+                break;
+            case 5:
+                ViewHolderKai viewHolderKai = (ViewHolderKai) holder;
+                new ThemeWallpaper(viewHolderKai.mWpBgKai).execute();
+                viewHolderKai.mLlBgMainKai.setBackground(getThemeDayNightBg());
+                viewHolderKai.mQsAccentMainKaiWifi.setImageDrawable(
+                    getShapeDrawable(pathShape, bgQsAccent));
+                viewHolderKai.mQSTileMainKaiWifiActive.setColorFilter(qsTileIconActive);
+                viewHolderKai.mQsTileMainKaiBgBluetoothInactive.setImageDrawable(
+                    getShapeDrawable(pathShape, qsTileBgInactive));
+                viewHolderKai.mQsTileMainKaiIconBluetoothInactive.setColorFilter(qsTileIconInactive);
+                viewHolderKai.mQsAccentMainKaiDnd.setImageDrawable(
+                    getShapeDrawable(pathShape, bgQsAccent));
+                viewHolderKai.mQsTileMainKaiDndActive.setColorFilter(qsTileIconActive);
+                viewHolderKai.mQsTileMainKaiBgFlashlightInactive.setImageDrawable(
+                    getShapeDrawable(pathShape, qsTileBgInactive));
+                viewHolderKai.mQsTileMainKaiIconFlashlightInactive.setColorFilter(qsTileIconInactive);
+                viewHolderKai.mQsAccentMainKaiAutorotate.setImageDrawable(
+                    getShapeDrawable(pathShape, bgQsAccent));
+                viewHolderKai.mQsTileMainKaiAutorotateActive.setColorFilter(qsTileIconActive);
+                viewHolderKai.mQsTileMainKaiBgBatterySaverInactive.setImageDrawable(
+                    getShapeDrawable(pathShape, qsTileBgInactive));
+                viewHolderKai.mQsTileMainKaiIconBatterySaverInactive.setColorFilter(qsTileIconInactive);
+                viewHolderKai.mViewSpacerMainKai.setBackground(getThemeDayNightSpacer());
+                if (threeButtonNavbarEnabled(mContext)) {
+                    viewHolderKai.mViewNavbarMainKai.setImageDrawable(getNavbarStyle(themeNavbarStyle));
+                    viewHolderKai.mViewNavbarMainKai.setBackgroundColor(ColorUtils.setAlphaComponent(
+                        mResources.getColor(R.color.themes_preview_navbar_bg), 100));
+                } else {
+                    viewHolderKai.mViewNavbarMainKai.setVisibility(View.GONE);
+                }
+                viewHolderKai.mThemeMainKaiName.setText(themeName);
+                viewHolderKai.mThemeMainKaiName.setTypeface(getTypeface());
+                break;
+            case 6:
+                ViewHolderSam viewHolderSam = (ViewHolderSam) holder;
+                new ThemeWallpaper(viewHolderSam.mWpBgSam).execute();
+                viewHolderSam.mLlBgMainSam.setBackground(getThemeDayNightBg());
+                viewHolderSam.mQsAccentMainSamWifi.setImageDrawable(
+                    getShapeDrawable(pathShape, bgQsAccent));
+                viewHolderSam.mQSTileMainSamWifiActive.setColorFilter(qsTileIconActive);
+                viewHolderSam.mQsTileMainSamBgBluetoothInactive.setImageDrawable(
+                    getShapeDrawable(pathShape, qsTileBgInactive));
+                viewHolderSam.mQsTileMainSamIconBluetoothInactive.setColorFilter(qsTileIconInactive);
+                viewHolderSam.mQsAccentMainSamDnd.setImageDrawable(
+                    getShapeDrawable(pathShape, bgQsAccent));
+                viewHolderSam.mQsTileMainSamDndActive.setColorFilter(qsTileIconActive);
+                viewHolderSam.mQsTileMainSamBgFlashlightInactive.setImageDrawable(
+                    getShapeDrawable(pathShape, qsTileBgInactive));
+                viewHolderSam.mQsTileMainSamIconFlashlightInactive.setColorFilter(qsTileIconInactive);
+                viewHolderSam.mQsAccentMainSamAutorotate.setImageDrawable(
+                    getShapeDrawable(pathShape, bgQsAccent));
+                viewHolderSam.mQsTileMainSamAutorotateActive.setColorFilter(qsTileIconActive);
+                viewHolderSam.mQsTileMainSamBgBatterySaverInactive.setImageDrawable(
+                    getShapeDrawable(pathShape, qsTileBgInactive));
+                viewHolderSam.mQsTileMainSamIconBatterySaverInactive.setColorFilter(qsTileIconInactive);
+                viewHolderSam.mViewSpacerMainSam.setBackground(getThemeDayNightSpacer());
+                if (threeButtonNavbarEnabled(mContext)) {
+                    viewHolderSam.mViewNavbarMainSam.setImageDrawable(getNavbarStyle(themeNavbarStyle));
+                    viewHolderSam.mViewNavbarMainSam.setBackgroundColor(ColorUtils.setAlphaComponent(
+                        mResources.getColor(R.color.themes_preview_navbar_bg), 100));
+                } else {
+                    viewHolderSam.mViewNavbarMainSam.setVisibility(View.GONE);
+                }
+                viewHolderSam.mThemeMainSamName.setText(themeName);
+                viewHolderSam.mThemeMainSamName.setTypeface(getTypeface());
+                break;
+            case 7:
+                ViewHolderVictor viewHolderVictor = (ViewHolderVictor) holder;
+                new ThemeWallpaper(viewHolderVictor.mWpBgVictor).execute();
+                viewHolderVictor.mLlBgMainVictor.setBackground(getThemeDayNightBg());
+                viewHolderVictor.mQsAccentMainVictorWifi.setImageDrawable(
+                    getShapeDrawable(pathShape, bgQsAccent));
+                viewHolderVictor.mQSTileMainVictorWifiActive.setColorFilter(qsTileIconActive);
+                viewHolderVictor.mQsTileMainVictorBgBluetoothInactive.setImageDrawable(
+                    getShapeDrawable(pathShape, qsTileBgInactive));
+                viewHolderVictor.mQsTileMainVictorIconBluetoothInactive.setColorFilter(qsTileIconInactive);
+                viewHolderVictor.mQsAccentMainVictorDnd.setImageDrawable(
+                    getShapeDrawable(pathShape, bgQsAccent));
+                viewHolderVictor.mQsTileMainVictorDndActive.setColorFilter(qsTileIconActive);
+                viewHolderVictor.mQsTileMainVictorBgFlashlightInactive.setImageDrawable(
+                    getShapeDrawable(pathShape, qsTileBgInactive));
+                viewHolderVictor.mQsTileMainVictorIconFlashlightInactive.setColorFilter(qsTileIconInactive);
+                viewHolderVictor.mQsAccentMainVictorAutorotate.setImageDrawable(
+                    getShapeDrawable(pathShape, bgQsAccent));
+                viewHolderVictor.mQsTileMainVictorAutorotateActive.setColorFilter(qsTileIconActive);
+                viewHolderVictor.mQsTileMainVictorBgBatterySaverInactive.setImageDrawable(
+                    getShapeDrawable(pathShape, qsTileBgInactive));
+                viewHolderVictor.mQsTileMainVictorIconBatterySaverInactive.setColorFilter(qsTileIconInactive);
+                viewHolderVictor.mViewSpacerMainVictor.setBackground(getThemeDayNightSpacer());
+                if (threeButtonNavbarEnabled(mContext)) {
+                    viewHolderVictor.mViewNavbarMainVictor.setImageDrawable(getNavbarStyle(themeNavbarStyle));
+                    viewHolderVictor.mViewNavbarMainVictor.setBackgroundColor(ColorUtils.setAlphaComponent(
+                        mResources.getColor(R.color.themes_preview_navbar_bg), 100));
+                } else {
+                    viewHolderVictor.mViewNavbarMainVictor.setVisibility(View.GONE);
+                }
+                viewHolderVictor.mThemeMainVictorName.setText(themeName);
+                viewHolderVictor.mThemeMainVictorName.setTypeface(getTypeface());
                 break;
         }
     }
