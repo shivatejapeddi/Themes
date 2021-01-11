@@ -164,6 +164,18 @@
         android:backgroundTint="#FFCDDC39" />
 
     <Button
+        android:id="@+id/ohsoorangeAccent"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/accent_picker_circle"
+        android:backgroundTint="#FFFF8A65" />
+
+    <Button
         android:id="@+id/orangeAccent"
         android:layout_width="60dp"
         android:layout_height="60dp"

@@ -156,12 +156,18 @@
 
     <!-- Accent name -->
     <string-array name="accent_name">
-        <item>@string/accent_colors_space</item>
-        <item>@string/accent_colors_purple</item>
-        <item>@string/accent_colors_orchid</item>
-        <item>@string/accent_colors_ocean</item>
-        <item>@string/accent_colors_green</item>
+        <item>@string/accent_colors_amethyst</item>
+        <item>@string/accent_colors_aquamarine</item>
+        <item>@string/accent_colors_carbon</item>
         <item>@string/accent_colors_cinnamon</item>
+        <item>@string/accent_colors_green</item>
+        <item>@string/accent_colors_ocean</item>
+        <item>@string/accent_colors_orchid</item>
+        <item>@string/accent_colors_palette</item>
+        <item>@string/accent_colors_purple</item>
+        <item>@string/accent_colors_sand</item>
+        <item>@string/accent_colors_space</item>
+        <item>@string/accent_colors_tangerine</item>
         <item>@string/accent_colors_amber</item>
         <item>@string/accent_colors_blue</item>
         <item>@string/accent_colors_bluegrey</item>
@@ -174,6 +180,7 @@
         <item>@string/accent_colors_lightblue</item>
         <item>@string/accent_colors_lightgreen</item>
         <item>@string/accent_colors_lime</item>
+        <item>@string/accent_colors_ohsoorange</item>
         <item>@string/accent_colors_orange</item>
         <item>@string/accent_colors_pink</item>
         <item>@string/accent_colors_red</item>
@@ -183,12 +190,18 @@
 
     <!-- Accent Picker Buttons -->
     <string-array name="accent_picker_buttons">
-        <item>spaceAccent</item>
-        <item>purpleAccent</item>
-        <item>orchidAccent</item>
-        <item>oceanAccent</item>
-        <item>greenAccent</item>
+        <item>amethystAccent</item>
+        <item>aquamarineAccent</item>
+        <item>carbonAccent</item>
         <item>cinnamonAccent</item>
+        <item>greenAccent</item>
+        <item>oceanAccent</item>
+        <item>orchidAccent</item>
+        <item>paletteAccent</item>
+        <item>purpleAccent</item>
+        <item>sandAccent</item>
+        <item>spaceAccent</item>
+        <item>tangerineAccent</item>
         <item>amberAccent</item>
         <item>blueAccent</item>
         <item>blueGreyAccent</item>
@@ -201,6 +214,7 @@
         <item>lightBlueAccent</item>
         <item>lightGreenAccent</item>
         <item>limeAccent</item>
+        <item>ohsoorangeAccent</item>
         <item>orangeAccent</item>
         <item>pinkAccent</item>
         <item>redAccent</item>
