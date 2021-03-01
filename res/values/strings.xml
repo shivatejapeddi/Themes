@@ -35,6 +35,7 @@
     <string name="theme_navbar_picker_oneui">One UI</string>
     <string name="theme_navbar_picker_tecno">Tecno Camon</string>
     <string name="theme_navbar_picker_asus">ASUS</string>
+    <string name="theme_navbar_picker_kronic">Kronic</string>
 
     <!-- Dark theme -->
     <string name="dark_theme_title">Dark theme</string>

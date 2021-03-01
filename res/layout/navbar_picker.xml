@@ -72,6 +72,14 @@
                 android:layout_width="wrap_content"
                 android:layout_marginBottom="20dp"/>
 
+            <include layout="@layout/navbar_kronic"
+                android:id="@+id/kronic_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tecno_layout"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="20dp"/>
+
         </RelativeLayout>
 
     </LinearLayout>

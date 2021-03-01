@@ -249,6 +249,9 @@ public class BackupThemes extends DialogFragment {
             case "com.android.theme.navbar.tecno":
                 navbarBackup = mResources.getDrawable(R.drawable.navbar_tecno_layer);
                 break;
+            case "com.android.theme.navbar.kronic":
+                navbarBackup = mResources.getDrawable(R.drawable.navbar_kronic_layer);
+                break;
             case "default":
                 navbarBackup = mResources.getDrawable(R.drawable.navbar_stock_layer);
                 break;
