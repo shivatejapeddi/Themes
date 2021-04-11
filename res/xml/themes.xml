@@ -67,6 +67,12 @@
             android:targetClass="com.android.customization.picker.LockClockPickerActivity" />
     </Preference>
 
+    <com.aosip.support.preference.SystemSettingSwitchPreference
+            android:key="clock_show_status_area"
+            android:title="@string/clock_show_status_area"
+            android:summary="@string/clock_show_status_area_summary"
+            android:defaultValue="true" />
+
     <com.aosip.support.preference.CustomPreferenceCategory
         android:title="@string/theme_type_title" >
 
