@@ -43,7 +43,7 @@ import android.widget.Toast;
 
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.util.aosip.ThemesUtils;
+import com.android.internal.util.cafex.ThemesUtils;
 import com.dirtyunicorns.themes.R;
 
 public class ThemesEndReceiver extends BroadcastReceiver {

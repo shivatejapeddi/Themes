@@ -54,8 +54,8 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceScreen;
 
-import com.android.internal.util.aosip.ThemesUtils;
-import com.android.internal.util.aosip.AOSiPUtils;
+import com.android.internal.util.cafex.ThemesUtils;
+import com.android.internal.util.cafex.Utils;
 import com.dirtyunicorns.themes.db.ThemeDatabase;
 
 import java.util.Calendar;
@@ -259,21 +259,21 @@ public class Themes extends PreferenceFragment implements ThemesListener {
 
         // Themes
         mThemeSwitch = (ListPreference) findPreference(PREF_THEME_SWITCH);
-        if (AOSiPUtils.isThemeEnabled("com.android.theme.color.primary.ocean")) {
+        if (Utils.isThemeEnabled("com.android.theme.color.primary.ocean")) {
             mThemeSwitch.setValue("10");
-        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.color.primary.nature")) {
+        } else if (Utils.isThemeEnabled("com.android.theme.color.primary.nature")) {
             mThemeSwitch.setValue("9");
-        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.color.primary.flame")) {
+        } else if (Utils.isThemeEnabled("com.android.theme.color.primary.flame")) {
             mThemeSwitch.setValue("8");
-        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.color.primary.ethereal")) {
+        } else if (Utils.isThemeEnabled("com.android.theme.color.primary.ethereal")) {
             mThemeSwitch.setValue("7");
-        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.color.primary.clear")) {
+        } else if (Utils.isThemeEnabled("com.android.theme.color.primary.clear")) {
             mThemeSwitch.setValue("6");
-        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.color.primary.charcoalblack")) {
+        } else if (Utils.isThemeEnabled("com.android.theme.color.primary.charcoalblack")) {
             mThemeSwitch.setValue("5");
-        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.color.primary.solarized")) {
+        } else if (Utils.isThemeEnabled("com.android.theme.color.primary.solarized")) {
             mThemeSwitch.setValue("4");
-        } else if (AOSiPUtils.isThemeEnabled("com.android.theme.color.primary.black")) {
+        } else if (Utils.isThemeEnabled("com.android.theme.color.primary.black")) {
             mThemeSwitch.setValue("3");
         } else if (mUiModeManager != null) {
             if (mUiModeManager.getNightMode() == UiModeManager.MODE_NIGHT_YES) {
@@ -355,7 +355,7 @@ public class Themes extends PreferenceFragment implements ThemesListener {
         int position = -1;
         for (int i = 0; i < overlays.length; i++) {
             String overlay = overlays[i];
-            if (AOSiPUtils.isThemeEnabled(overlay)) {
+            if (Utils.isThemeEnabled(overlay)) {
                 position = i;
             }
         }
@@ -366,7 +366,7 @@ public class Themes extends PreferenceFragment implements ThemesListener {
         String overlayName = null;
         for (int i = 0; i < overlays.length; i++) {
             String overlay = overlays[i];
-            if (AOSiPUtils.isThemeEnabled(overlay)) {
+            if (Utils.isThemeEnabled(overlay)) {
                 overlayName = overlay;
             }
         }
