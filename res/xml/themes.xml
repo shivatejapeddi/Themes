@@ -51,13 +51,13 @@
         android:entries="@array/statusbar_icons_titles"
         android:entryValues="@array/statusbar_icons_values" />
 
-    <com.cafex.settings.preference.SystemSettingSwitchPreference
+    <com.aosip.support.preference.SystemSettingSwitchPreference
         android:key="qs_panel_bg_use_new_tint"
         android:title="@string/qs_bg_use_new_tint"
         android:summary="@string/qs_bg_use_new_tint_summary"
         android:defaultValue="false" />
 
-    <com.cafex.settings.preference.SystemSettingIntListPreference
+    <com.aosip.support.preference.SystemSettingIntListPreference
         android:key="theming_settings_dashboard_icons"
         android:title="@string/theming_settings_dashboard_icons_title"
         android:entries="@array/theming_settings_dashboard_icons_entries"
@@ -74,7 +74,7 @@
             android:targetClass="com.android.customization.picker.LockClockPickerActivity" />
     </Preference>
 
-    <com.cafex.settings.preference.CustomPreferenceCategory
+    <com.aosip.support.preference.CustomPreferenceCategory
         android:title="@string/theme_type_title" >
 
         <ListPreference
@@ -89,9 +89,9 @@
             android:key="theme_schedule"
             android:title="@string/theme_schedule_title" />
 
-    </com.cafex.settings.preference.CustomPreferenceCategory>
+    </com.aosip.support.preference.CustomPreferenceCategory>
 
-    <com.cafex.settings.preference.CustomPreferenceCategory
+    <com.aosip.support.preference.CustomPreferenceCategory
         android:key="theme_other_category"
         android:title="@string/theme_other_category_title">
 
@@ -103,6 +103,6 @@
             android:key="restore_themes"
             android:title="@string/theme_restore_title" />
 
-    </com.cafex.settings.preference.CustomPreferenceCategory>
+    </com.aosip.support.preference.CustomPreferenceCategory>
 
 </PreferenceScreen>
